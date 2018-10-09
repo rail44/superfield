@@ -4,3 +4,6 @@ version = "0.1.0"
 authors = ["Satoshi Amemiya <satoshi_amemiya@voyagegroup.com>"]
 
 [dependencies]
+actix-web = "0.7.1"
+squark = { path = "../squark/squark" }
+squark-macros = { git = "https://github.com/rail44/squark.git" }
